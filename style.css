@@ -1,0 +1,164 @@
+#monarch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.compasses{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #8db1ab;
+    color: white;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.compasses:hover{
+    cursor: pointer;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.text.text:hover{
+    cursor: pointer;
+}
+.text h1{
+    font-size: 25px;
+}
+.text p{
+    color: #8db1ab;
+}
+.boxes ul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    color: black;
+    font-size: 20px;
+}
+.boxes .home{
+    color: #8db1ab;
+}
+.boxes ul:hover{
+    cursor: pointer;
+}
+#container1{
+    max-width: 100vw;
+    min-height: 100vh;
+}
+.photos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.photos .photo{
+    width: 100%;
+    padding: 20px;
+    height: 220px;
+}
+.photos .photo img{
+    width: 100%;
+    height: 220px;
+}
+
+#first{
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 25vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    
+}
+.left .text1{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.left h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.left h3{
+    font-size: 20px ;
+    margin-bottom: 20px;
+}
+.left .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.left .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 15%;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.left .icons .icon:hover{
+    cursor: pointer;
+}
+.right{
+    width: 25vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.right h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+.right ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 25px;
+}
+.right li:hover{
+    cursor: pointer;
+    color: #8db1ab;
+
+}
+#first{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second .text3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.text3 span{
+    cursor:pointer;
+    color: #8db1ab;
+}
